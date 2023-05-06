@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
+	"github.com/mhasmat/godesde0/teclado"
 	// "runtime"
-
-	"github.com/mhasmat/godesde0/ejercicios"
 )
 
 func main() {
@@ -29,9 +27,12 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.ConversorNumerico("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
+	*/
+
+	teclado.IngresoNumeros()
 }
